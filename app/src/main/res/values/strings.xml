@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="paris">Paris</string>
+    <string name="temperature_min">Temperature min :</string>
+    <string name="temperature_max">Temperature max :</string>
+    <string name="pressure">Pressure :</string>
+    <string name="humidity">Humidity :</string>
+</resources>

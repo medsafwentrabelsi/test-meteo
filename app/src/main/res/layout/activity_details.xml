@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/weather_image_view_details"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/country_text_view_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_image_view_details"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/paris"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20ssp" />
+
+    <TextView
+        android:id="@+id/temperature_text_view_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/robotobold"
+        android:textAlignment="center"
+
+        android:textSize="@dimen/_20ssp" />
+
+    <TextView
+        android:id="@+id/min_temp_title_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/temperature_min"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/min_temp_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/min_temp_title_text_view_details"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/max_temp_title_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/min_temp_title_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/temperature_max"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/max_temp_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/min_temp_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/min_temp_title_text_view_details"
+
+        android:textSize="@dimen/_15ssp" />
+    <TextView
+        android:id="@+id/pressure_title_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/max_temp_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/pressure"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/pressure_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/max_temp_title_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/min_temp_title_text_view_details"
+        android:textSize="@dimen/_15ssp" />
+    <TextView
+        android:id="@+id/humidity_title_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pressure_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/humidity"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/humidity_text_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pressure_title_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/min_temp_title_text_view_details"
+        android:textSize="@dimen/_15ssp" />
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/date_text_view_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidity_text_view_details"
+        android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp" />
+
+
+</RelativeLayout>
